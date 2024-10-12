@@ -1,0 +1,147 @@
+['\ufeff시군구', '번지', '본번', '부번', '단지명', '동', '한강각', '한강거리', 'Obscure', '방음벽', '고가도로', '강북', '위도', '경도', '']
+['시군구', '번지', '본번', '부번', '단지명', '전용면적(㎡)', '계약년월', '계약일', '거래금액(만원)', '동', '층', '매수자', '매도자', '건축년도', '도로명', '해제사유발생일', '거래유형', '중개사소재지', '등기일자', '주택유형']
+Step 1 OLS
+For apartment 0: Step1 11, Step2 5
+results.params : 113329.37 1351.65 1264.15 results.rsquared : 0.9634, results.rsquared_adj : 0.9542
+results.ssr: 1451357533.3697, Average ssr: 131941593.9427, std: 11486.5832
+avg_error: 3.07
+
+For apartment 1: Step1 4, Step2 2
+results.params : 36653.33 1836.39 -335.82 results.rsquared : 0.9298, results.rsquared_adj : 0.7894
+results.ssr: 344962686.5672, Average ssr: 86240671.6418, std: 9286.5856
+avg_error: 2.51
+
+For apartment 2: Step1 18, Step2 2
+results.params : 143627.16 2239.74 1520.26 results.rsquared : 0.8555, results.rsquared_adj : 0.8363
+results.ssr: 2117916348.3599, Average ssr: 117662019.3533, std: 10847.2125
+avg_error: 2.22
+
+For apartment 3: Step1 18, Step2 40
+results.params : 19829.09 4121.10 133.21 results.rsquared : 0.9244, results.rsquared_adj : 0.9143
+results.ssr: 11643214663.6043, Average ssr: 646845259.0891, std: 25433.1528
+avg_error: 6.26
+
+For apartment 4: Step1 23, Step2 4
+results.params : 28679.11 1256.88 1039.18 results.rsquared : 0.8987, results.rsquared_adj : 0.8885
+results.ssr: 1956458844.1962, Average ssr: 85063428.0085, std: 9222.9837
+avg_error: 4.90
+
+For apartment 5: Step1 26, Step2 5
+results.params : 56308.75 1010.58 451.13 results.rsquared : 0.8105, results.rsquared_adj : 0.7940
+results.ssr: 1421178894.6886, Average ssr: 54660726.7188, std: 7393.2893
+avg_error: 3.69
+
+For apartment 6: Step1 21, Step2 9
+results.params : 1747.51 4329.70 1568.67 results.rsquared : 0.8997, results.rsquared_adj : 0.8885
+results.ssr: 14182959352.5537, Average ssr: 675379016.7883, std: 25988.0553
+avg_error: 5.10
+
+For apartment 7: Step1 8, Step2 5
+results.params : 234680.89 -406.22 933.51 results.rsquared : 0.1292, results.rsquared_adj : -0.2192
+results.ssr: 860279255.3191, Average ssr: 107534906.9149, std: 10369.9039
+avg_error: 3.89
+
+For apartment 8: Step1 5, Step2 1
+results.params : 3066.63 3134.62 results.rsquared : 0.0765, results.rsquared_adj : -0.2313
+results.ssr: 2466423076.9231, Average ssr: 493284615.3846, std: 22210.0116
+avg_error: 3.57
+
+For apartment 9: Step1 20, Step2 13
+results.params : 8391.67 1462.66 2892.86 results.rsquared : 0.5365, results.rsquared_adj : 0.4820
+results.ssr: 7327597716.8496, Average ssr: 366379885.8425, std: 19141.0524
+avg_error: 10.46
+
+For apartment 10: Step1 6, Step2 7
+results.params : 95444.44 336.37 290.03 results.rsquared : 0.2443, results.rsquared_adj : -0.2595
+results.ssr: 300275999.5856, Average ssr: 50045999.9309, std: 7074.3198
+avg_error: 5.49
+
+For apartment 11: Step1 11, Step2 14
+results.params : 49334.15 1346.45 693.40 results.rsquared : 0.8852, results.rsquared_adj : 0.8565
+results.ssr: 136607030.3888, Average ssr: 12418820.9444, std: 3524.0348
+avg_error: 2.18
+
+For apartment 12: Step1 12, Step2 10
+results.params : 82619.53 1577.74 2030.75 results.rsquared : 0.9607, results.rsquared_adj : 0.9519
+results.ssr: 2302763868.6113, Average ssr: 191896989.0509, std: 13852.6889
+avg_error: 4.11
+
+For apartment 13: Step1 3, Step2 3
+results.params : 18.40 1581.35 5020.10 results.rsquared : 0.9931, results.rsquared_adj : 0.9863
+results.ssr: 5445000.0000, Average ssr: 1815000.0000, std: 1347.2194
+avg_error: 0.64
+
+For apartment 14: Step1 10, Step2 7
+results.params : 62746.09 1111.31 238.12 results.rsquared : 0.7940, results.rsquared_adj : 0.7352
+results.ssr: 1391011422.6576, Average ssr: 139101142.2658, std: 11794.1147
+avg_error: 5.11
+
+For apartment 15: Step1 57, Step2 24
+results.params : 54648.97 902.43 -3.67 results.rsquared : 0.8344, results.rsquared_adj : 0.8283
+results.ssr: 10246376843.4863, Average ssr: 179760997.2541, std: 13407.4978
+avg_error: 8.24
+
+For apartment 16: Step1 7, Step2 5
+results.params : 52838.31 1253.50 753.51 results.rsquared : 0.9350, results.rsquared_adj : 0.9025
+results.ssr: 192368596.4912, Average ssr: 27481228.0702, std: 5242.2541
+avg_error: 2.45
+
+For apartment 17: Step1 14, Step2 6
+results.params : 34111.75 1313.03 893.14 results.rsquared : 0.2576, results.rsquared_adj : 0.1227
+results.ssr: 1497345387.1092, Average ssr: 106953241.9364, std: 10341.8200
+avg_error: 4.93
+
+For apartment 18: Step1 103, Step2 18
+results.params : 32920.07 1998.42 -8.10 results.rsquared : 0.9094, results.rsquared_adj : 0.9076
+results.ssr: 32633477148.3704, Average ssr: 316829875.2269, std: 17799.7156
+avg_error: 10.88
+
+For apartment 19: Step1 112, Step2 46
+results.params : 80640.67 1319.15 453.39 results.rsquared : 0.7969, results.rsquared_adj : 0.7931
+results.ssr: 30557981339.6292, Average ssr: 272839119.1038, std: 16517.8424
+avg_error: 7.07
+
+For apartment 20: Step1 176, Step2 18
+results.params : 69676.18 1825.87 299.78 results.rsquared : 0.6929, results.rsquared_adj : 0.6893
+results.ssr: 48107724386.5999, Average ssr: 273339343.1057, std: 16532.9774
+avg_error: 6.03
+
+For apartment 21: Step1 236, Step2 19
+results.params : 35320.03 2209.30 317.80 results.rsquared : 0.9333, results.rsquared_adj : 0.9327
+results.ssr: 65682227773.0832, Average ssr: 278314524.4622, std: 16682.7613
+avg_error: 7.52
+
+For apartment 22: Step1 30, Step2 14
+results.params : 44049.25 1459.28 96.49 results.rsquared : 0.9075, results.rsquared_adj : 0.9007
+results.ssr: 900069945.9123, Average ssr: 30002331.5304, std: 5477.4384
+avg_error: 2.81
+
+For apartment 23: Step1 41, Step2 5
+results.params : 47259.99 1069.38 2101.44 results.rsquared : 0.8130, results.rsquared_adj : 0.8032
+results.ssr: 2679409413.1470, Average ssr: 65351449.1011, std: 8084.0243
+avg_error: 4.28
+
+0th apartment name; 용산구 서빙고동 / 신동아, # step1: 11, # step2: 5
+1th apartment name; 용산구 이촌동 / 이촌동삼성리버스위트, # step1: 4, # step2: 2
+2th apartment name; 용산구 이촌동 / 한강맨숀, # step1: 18, # step2: 2
+3th apartment name; 서초구 반포동 / 아크로리버파크, # step1: 18, # step2: 40
+4th apartment name; 동작구 흑석동 / 명수대현대, # step1: 23, # step2: 4
+5th apartment name; 동작구 흑석동 / 한강현대, # step1: 26, # step2: 5
+6th apartment name; 서초구 반포동 / 래미안원베일리, # step1: 21, # step2: 9
+7th apartment name; 서초구 잠원동 / 한강, # step1: 8, # step2: 5
+8th apartment name; 강남구 압구정동 / 한양2, # step1: 5, # step2: 1
+9th apartment name; 성동구 옥수동 / 옥수하이츠, # step1: 20, # step2: 13
+10th apartment name; 마포구 망원동 / 마포한강아이파크, # step1: 6, # step2: 7
+11th apartment name; 마포구 현석동 / 래미안웰스트림, # step1: 11, # step2: 14
+12th apartment name; 용산구 이촌동 / LG한강자이, # step1: 12, # step2: 10
+13th apartment name; 용산구 이촌동 / 삼익, # step1: 3, # step2: 3
+14th apartment name; 마포구 하중동 / 한강밤섬자이, # step1: 10, # step2: 7
+15th apartment name; 광진구 구의동 / 현대프라임, # step1: 57, # step2: 24
+16th apartment name; 광진구 광장동 / 극동1, # step1: 7, # step2: 5
+17th apartment name; 광진구 광장동 / 극동2, # step1: 14, # step2: 6
+18th apartment name; 송파구 신천동 / 파크리오, # step1: 103, # step2: 18
+19th apartment name; 송파구 신천동 / 파크리오2, # step1: 112, # step2: 46
+20th apartment name; 송파구 잠실동 / 잠실엘스, # step1: 176, # step2: 18
+21th apartment name; 송파구 잠실동 / 리센츠, # step1: 236, # step2: 19
+22th apartment name; 성동구 금호동4가 / 서울숲2차푸르지오, # step1: 30, # step2: 14
+23th apartment name; 성동구 금호동4가 / 서울숲푸르지오, # step1: 41, # step2: 5

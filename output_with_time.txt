@@ -1,0 +1,151 @@
+['\ufeff시군구', '번지', '본번', '부번', '단지명', '동', '한강각', '한강거리', 'Obscure', '방음벽', '고가도로', '강북', '위도', '경도', '']
+['시군구', '번지', '본번', '부번', '단지명', '전용면적(㎡)', '계약년월', '계약일', '거래금액(만원)', '동', '층', '매수자', '매도자', '건축년도', '도로명', '해제사유발생일', '거래유형', '중개사소재지', '등기일자', '주택유형']
+Step 1 OLS
+For apartment 0: Step1 11, Step2 5
+results.params : 145618.82 1287.61 -3971.53 -3971.53 641.28 results.rsquared : 0.9819, results.rsquared_adj : 0.9741
+results.ssr: 717943223.4571, Average ssr: 65267565.7688, std: 8078.8344
+avg_error: 2.16
+
+For apartment 1: Step1 4, Step2 2
+results.params : -223917.83 1910.24 21607.14 21607.14 -1706.35 results.rsquared : 1.0000, results.rsquared_adj : nan
+results.ssr: 0.0000, Average ssr: 0.0000, std: 0.0000
+avg_error: 0.00
+
+For apartment 2: Step1 18, Step2 2
+results.params : 118546.13 2305.50 8394.25 8394.25 -2497.57 results.rsquared : 0.8746, results.rsquared_adj : 0.8477
+results.ssr: 1838250976.2232, Average ssr: 102125054.2346, std: 10105.6941
+avg_error: 1.97
+
+For apartment 3: Step1 18, Step2 40
+results.params : 25761.27 4107.20 -429.22 -429.22 38.90 results.rsquared : 0.9249, results.rsquared_adj : 0.9088
+results.ssr: 11564997186.2118, Average ssr: 642499843.6784, std: 25347.5806
+avg_error: 6.29
+
+For apartment 4: Step1 23, Step2 4
+results.params : 29012.30 1257.47 452.52 452.52 8.28 results.rsquared : 0.8987, results.rsquared_adj : 0.8827
+results.ssr: 1956066977.8828, Average ssr: 85046390.3427, std: 9222.0600
+avg_error: 4.91
+
+For apartment 5: Step1 26, Step2 5
+results.params : 55764.28 1012.77 293.71 293.71 -8.41 results.rsquared : 0.8106, results.rsquared_adj : 0.7848
+results.ssr: 1420704322.5889, Average ssr: 54642473.9457, std: 7392.0548
+avg_error: 3.67
+
+For apartment 6: Step1 21, Step2 9
+results.params : -76460.40 4597.70 4646.09 4646.09 -200.03 results.rsquared : 0.9371, results.rsquared_adj : 0.9260
+results.ssr: 8890639661.4478, Average ssr: 423363793.4023, std: 20575.8060
+avg_error: 4.52
+
+For apartment 7: Step1 8, Step2 5
+results.params : 221809.38 -453.01 3752.17 3752.17 -451.34 results.rsquared : 0.2737, results.rsquared_adj : -0.2710
+results.ssr: 717499939.2882, Average ssr: 89687492.4110, std: 9470.3481
+avg_error: 3.97
+
+For apartment 8: Step1 5, Step2 1
+results.params : 779.84 50709.94 50709.94 -5597.85 results.rsquared : 0.7891, results.rsquared_adj : 0.5781
+results.ssr: 563370487.6504, Average ssr: 112674097.5301, std: 10614.8056
+avg_error: 1.41
+
+For apartment 9: Step1 20, Step2 13
+results.params : 17661.07 1077.65 8448.29 8448.29 -1154.59 results.rsquared : 0.6995, results.rsquared_adj : 0.6432
+results.ssr: 4750834887.6474, Average ssr: 237541744.3824, std: 15412.3893
+avg_error: 8.35
+
+For apartment 10: Step1 6, Step2 7
+results.params : 95217.37 23.50 4075.15 4075.15 -512.06 results.rsquared : 0.8089, results.rsquared_adj : 0.5224
+results.ssr: 75913728.2260, Average ssr: 12652288.0377, std: 3557.0055
+avg_error: 2.76
+
+For apartment 11: Step1 11, Step2 14
+results.params : 50438.72 1253.60 970.10 970.10 -54.75 results.rsquared : 0.9058, results.rsquared_adj : 0.8654
+results.ssr: 112113859.8543, Average ssr: 10192169.0777, std: 3192.5177
+avg_error: 1.92
+
+For apartment 12: Step1 12, Step2 10
+results.params : 82292.90 1578.17 1046.24 1046.24 -2.32 results.rsquared : 0.9607, results.rsquared_adj : 0.9459
+results.ssr: 2302647050.9514, Average ssr: 191887254.2460, std: 13852.3375
+avg_error: 4.10
+
+For apartment 13: Step1 3, Step2 3
+results.params : 15.44 1622.49 73.91 73.91 541.69 results.rsquared : 0.9931, results.rsquared_adj : 0.9863
+results.ssr: 5445000.0000, Average ssr: 1815000.0000, std: 1347.2194
+avg_error: 0.64
+
+For apartment 14: Step1 10, Step2 7
+results.params : 87162.65 1128.38 -2121.90 -2121.90 156.17 results.rsquared : 0.8183, results.rsquared_adj : 0.7275
+results.ssr: 1227049037.3808, Average ssr: 122704903.7381, std: 11077.2246
+avg_error: 5.01
+
+For apartment 15: Step1 57, Step2 24
+results.params : 51941.23 904.07 223.33 223.33 -13.96 results.rsquared : 0.8351, results.rsquared_adj : 0.8257
+results.ssr: 10206883989.6751, Average ssr: 179068140.1697, std: 13381.6344
+avg_error: 8.19
+
+For apartment 16: Step1 7, Step2 5
+results.params : 58504.08 1256.57 -747.08 -747.08 145.26 results.rsquared : 0.9441, results.rsquared_adj : 0.8882
+results.ssr: 165436211.4465, Average ssr: 23633744.4924, std: 4861.4550
+avg_error: 2.59
+
+For apartment 17: Step1 14, Step2 6
+results.params : -31603.13 1906.73 4272.42 4272.42 -511.47 results.rsquared : 0.5653, results.rsquared_adj : 0.4349
+results.ssr: 876734606.7244, Average ssr: 62623900.4803, std: 7913.5264
+avg_error: 4.41
+
+For apartment 18: Step1 103, Step2 18
+results.params : 25942.22 2021.94 496.41 496.41 -31.37 results.rsquared : 0.9114, results.rsquared_adj : 0.9087
+results.ssr: 31917936205.6005, Average ssr: 309882875.7825, std: 17603.4904
+avg_error: 10.68
+
+For apartment 19: Step1 112, Step2 46
+results.params : 80068.35 1319.64 274.32 274.32 -2.77 results.rsquared : 0.7969, results.rsquared_adj : 0.7913
+results.ssr: 30550839252.4375, Average ssr: 272775350.4682, std: 16515.9120
+avg_error: 7.06
+
+For apartment 20: Step1 176, Step2 18
+results.params : 68416.80 1821.33 296.92 296.92 -10.33 results.rsquared : 0.6931, results.rsquared_adj : 0.6878
+results.ssr: 48066209904.0308, Average ssr: 273103465.3638, std: 16525.8423
+avg_error: 6.03
+
+For apartment 21: Step1 236, Step2 19
+results.params : 25489.87 2206.41 963.54 963.54 -49.03 results.rsquared : 0.9358, results.rsquared_adj : 0.9349
+results.ssr: 63271280063.2355, Average ssr: 268098644.3357, std: 16373.7181
+avg_error: 7.49
+
+For apartment 22: Step1 30, Step2 14
+results.params : 41056.74 1459.41 588.36 588.36 -68.37 results.rsquared : 0.9111, results.rsquared_adj : 0.9008
+results.ssr: 865481053.3347, Average ssr: 28849368.4445, std: 5371.1608
+avg_error: 2.82
+
+For apartment 23: Step1 41, Step2 5
+results.params : 50931.97 1088.46 284.11 284.11 85.51 results.rsquared : 0.8229, results.rsquared_adj : 0.8085
+results.ssr: 2538213425.6211, Average ssr: 61907644.5273, std: 7868.1411
+avg_error: 4.16
+
+0th apartment name; 용산구 서빙고동 / 신동아, # step1: 11, # step2: 5
+1th apartment name; 용산구 이촌동 / 이촌동삼성리버스위트, # step1: 4, # step2: 2
+2th apartment name; 용산구 이촌동 / 한강맨숀, # step1: 18, # step2: 2
+3th apartment name; 서초구 반포동 / 아크로리버파크, # step1: 18, # step2: 40
+4th apartment name; 동작구 흑석동 / 명수대현대, # step1: 23, # step2: 4
+5th apartment name; 동작구 흑석동 / 한강현대, # step1: 26, # step2: 5
+6th apartment name; 서초구 반포동 / 래미안원베일리, # step1: 21, # step2: 9
+7th apartment name; 서초구 잠원동 / 한강, # step1: 8, # step2: 5
+8th apartment name; 강남구 압구정동 / 한양2, # step1: 5, # step2: 1
+9th apartment name; 성동구 옥수동 / 옥수하이츠, # step1: 20, # step2: 13
+10th apartment name; 마포구 망원동 / 마포한강아이파크, # step1: 6, # step2: 7
+11th apartment name; 마포구 현석동 / 래미안웰스트림, # step1: 11, # step2: 14
+12th apartment name; 용산구 이촌동 / LG한강자이, # step1: 12, # step2: 10
+13th apartment name; 용산구 이촌동 / 삼익, # step1: 3, # step2: 3
+14th apartment name; 마포구 하중동 / 한강밤섬자이, # step1: 10, # step2: 7
+15th apartment name; 광진구 구의동 / 현대프라임, # step1: 57, # step2: 24
+16th apartment name; 광진구 광장동 / 극동1, # step1: 7, # step2: 5
+17th apartment name; 광진구 광장동 / 극동2, # step1: 14, # step2: 6
+18th apartment name; 송파구 신천동 / 파크리오, # step1: 103, # step2: 18
+19th apartment name; 송파구 신천동 / 파크리오2, # step1: 112, # step2: 46
+20th apartment name; 송파구 잠실동 / 잠실엘스, # step1: 176, # step2: 18
+21th apartment name; 송파구 잠실동 / 리센츠, # step1: 236, # step2: 19
+22th apartment name; 성동구 금호동4가 / 서울숲2차푸르지오, # step1: 30, # step2: 14
+/home/oiocha/.local/lib/python3.8/site-packages/statsmodels/regression/linear_model.py:1795: RuntimeWarning: divide by zero encountered in true_divide
+  return 1 - (np.divide(self.nobs - self.k_constant, self.df_resid)
+/home/oiocha/.local/lib/python3.8/site-packages/statsmodels/regression/linear_model.py:1795: RuntimeWarning: invalid value encountered in double_scalars
+  return 1 - (np.divide(self.nobs - self.k_constant, self.df_resid)
+23th apartment name; 성동구 금호동4가 / 서울숲푸르지오, # step1: 41, # step2: 5
