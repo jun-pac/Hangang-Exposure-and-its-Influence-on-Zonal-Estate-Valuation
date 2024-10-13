@@ -1,0 +1,496 @@
+['시군구', '번지', '본번', '부번', '단지명', '전용면적(㎡)', '계약년월', '계약일', '거래금액(만원)', '동', '층', '매수자', '매도자', '건축년도', '도로명', '해제사유발생일', '거래유형', '중개사소재지', '등기일자', '주택유형']
+error_cnt: 547
+all_datas.shape: (92151, 5)
+num: 6239
+thres: lens[-99]
+Step 1 OLS
+For apartment 서대문구 북가좌동 / DMC래미안e편한세상: 188
+results.params : 43493.14 810.06 208.81 
+results.rsquared : 0.8226, results.rsquared_adj : 0.8207
+==================================================================
+For apartment 은평구 수색동 / DMC롯데캐슬더퍼스트: 118
+results.params : 20496.44 1042.15 311.42 
+results.rsquared : 0.8253, results.rsquared_adj : 0.8222
+==================================================================
+For apartment 서대문구 남가좌동 / DMC파크뷰자이1단지: 154
+results.params : 35421.72 1002.54 222.92 
+results.rsquared : 0.8431, results.rsquared_adj : 0.8411
+==================================================================
+For apartment 송파구 가락동 / 가락(1차)쌍용아파트: 196
+results.params : 54971.15 861.78 240.95 
+results.rsquared : 0.5291, results.rsquared_adj : 0.5242
+==================================================================
+For apartment 강서구 화곡동 / 강서힐스테이트: 199
+results.params : 57072.36 671.37 391.35 
+results.rsquared : 0.8388, results.rsquared_adj : 0.8371
+==================================================================
+For apartment 강남구 개포동 / 개포래미안포레스트: 176
+results.params : 24897.24 2723.43 297.97 
+results.rsquared : 0.8541, results.rsquared_adj : 0.8524
+==================================================================
+For apartment 강동구 고덕동 / 고덕그라시움: 491
+results.params : 24669.08 1600.76 251.07 
+results.rsquared : 0.7349, results.rsquared_adj : 0.7338
+==================================================================
+For apartment 강동구 상일동 / 고덕롯데캐슬베네루체: 147
+results.params : 53985.73 810.67 203.90 
+results.rsquared : 0.4258, results.rsquared_adj : 0.4179
+==================================================================
+For apartment 강동구 상일동 / 고덕센트럴IPARK: 149
+results.params : 56513.18 855.88 506.69 
+results.rsquared : 0.4715, results.rsquared_adj : 0.4643
+==================================================================
+For apartment 강동구 상일동 / 고덕아르테온: 309
+results.params : 35876.51 1318.12 259.89 
+results.rsquared : 0.6270, results.rsquared_adj : 0.6246
+==================================================================
+For apartment 강동구 상일동 / 고덕자이: 148
+results.params : 42608.92 1065.88 208.69 
+results.rsquared : 0.5045, results.rsquared_adj : 0.4977
+==================================================================
+For apartment 관악구 봉천동 / 관악드림(동아): 153
+results.params : 45064.34 425.76 262.54 
+results.rsquared : 0.5250, results.rsquared_adj : 0.5187
+==================================================================
+For apartment 금천구 시흥동 / 관악산벽산타운5: 172
+results.params : 16313.41 421.14 298.85 
+results.rsquared : 0.7074, results.rsquared_adj : 0.7039
+==================================================================
+For apartment 관악구 신림동 / 관악산휴먼시아2단지: 159
+results.params : 29554.90 423.91 282.35 
+results.rsquared : 0.6530, results.rsquared_adj : 0.6486
+==================================================================
+For apartment 관악구 봉천동 / 관악푸르지오: 160
+results.params : 34146.64 656.64 126.76 
+results.rsquared : 0.5829, results.rsquared_adj : 0.5776
+==================================================================
+For apartment 구로구 구로동 / 구로두산: 157
+results.params : 1587.89 909.61 192.94 
+results.rsquared : 0.7746, results.rsquared_adj : 0.7717
+==================================================================
+For apartment 성북구 길음동 / 길음뉴타운2단지푸르지오: 132
+results.params : 41989.86 437.20 50.33 
+results.rsquared : 0.6618, results.rsquared_adj : 0.6565
+==================================================================
+For apartment 성북구 길음동 / 길음뉴타운4단지(e편한세상): 127
+results.params : 36562.66 587.61 268.03 
+results.rsquared : 0.8037, results.rsquared_adj : 0.8006
+==================================================================
+For apartment 강남구 수서동 / 까치마을: 132
+results.params : 5149.13 2276.57 38.49 
+results.rsquared : 0.7627, results.rsquared_adj : 0.7591
+==================================================================
+For apartment 중구 신당동 / 남산타운: 214
+results.params : 43037.67 846.40 575.74 
+results.rsquared : 0.7361, results.rsquared_adj : 0.7336
+==================================================================
+For apartment 은평구 응암동 / 녹번역e편한세상캐슬: 265
+results.params : 28876.80 956.08 464.74 
+results.rsquared : 0.7637, results.rsquared_adj : 0.7619
+==================================================================
+For apartment 성동구 행당동 / 대림e-편한세상: 165
+results.params : 50126.55 733.73 -102.26 
+results.rsquared : 0.6796, results.rsquared_adj : 0.6756
+==================================================================
+For apartment 강남구 도곡동 / 도곡렉슬: 206
+results.params : 48069.23 2514.26 430.31 
+results.rsquared : 0.8335, results.rsquared_adj : 0.8319
+==================================================================
+For apartment 관악구 봉천동 / 두산: 135
+results.params : 48074.20 498.08 184.70 
+results.rsquared : 0.6120, results.rsquared_adj : 0.6061
+==================================================================
+For apartment 성북구 석관동 / 두산: 129
+results.params : 41359.94 379.44 162.14 
+results.rsquared : 0.6570, results.rsquared_adj : 0.6516
+==================================================================
+For apartment 성동구 옥수동 / 래미안 옥수 리버젠: 118
+results.params : 42647.00 1478.16 1333.18 
+results.rsquared : 0.8626, results.rsquared_adj : 0.8602
+==================================================================
+For apartment 강동구 천호동 / 래미안강동팰리스: 118
+results.params : 56822.41 758.33 525.92 
+results.rsquared : 0.4888, results.rsquared_adj : 0.4799
+==================================================================
+For apartment 성북구 길음동 / 래미안길음센터피스: 152
+results.params : 3366.63 1578.19 93.68 
+results.rsquared : 0.8680, results.rsquared_adj : 0.8662
+==================================================================
+For apartment 강남구 개포동 / 래미안블레스티지: 136
+results.params : 2137.02 3190.35 234.03 
+results.rsquared : 0.9055, results.rsquared_adj : 0.9041
+==================================================================
+For apartment 강동구 명일동 / 래미안솔베뉴: 194
+results.params : 21644.47 1537.95 223.67 
+results.rsquared : 0.6587, results.rsquared_adj : 0.6551
+==================================================================
+For apartment 성북구 석관동 / 래미안아트리치: 119
+results.params : 43263.10 622.14 98.52 
+results.rsquared : 0.4391, results.rsquared_adj : 0.4295
+==================================================================
+For apartment 영등포구 신길동 / 래미안에스티움: 122
+results.params : 41007.36 1086.01 552.65 
+results.rsquared : 0.7327, results.rsquared_adj : 0.7282
+==================================================================
+For apartment 동대문구 답십리동 / 래미안위브: 245
+results.params : 58527.03 663.60 355.24 
+results.rsquared : 0.6710, results.rsquared_adj : 0.6683
+==================================================================
+For apartment 동대문구 장안동 / 래미안장안2차: 118
+results.params : 36702.95 632.28 228.88 
+results.rsquared : 0.6858, results.rsquared_adj : 0.6804
+==================================================================
+For apartment 성북구 장위동 / 래미안장위퍼스트하이: 163
+results.params : 39583.63 699.16 156.05 
+results.rsquared : 0.6413, results.rsquared_adj : 0.6368
+==================================================================
+For apartment 동대문구 전농동 / 래미안크레시티: 164
+results.params : 56357.84 767.13 447.73 
+results.rsquared : 0.7113, results.rsquared_adj : 0.7077
+==================================================================
+For apartment 서초구 반포동 / 래미안퍼스티지: 165
+results.params : 82684.79 3273.67 44.23 
+results.rsquared : 0.9658, results.rsquared_adj : 0.9654
+==================================================================
+For apartment 성북구 장위동 / 래미안포레카운티: 118
+results.params : 45197.34 647.07 -305.43 
+results.rsquared : 0.4994, results.rsquared_adj : 0.4906
+==================================================================
+For apartment 강동구 고덕동 / 래미안힐스테이트고덕: 263
+results.params : 56958.31 1050.48 11.43 
+results.rsquared : 0.5997, results.rsquared_adj : 0.5967
+==================================================================
+For apartment 송파구 잠실동 / 레이크팰리스: 143
+results.params : 82076.40 1479.71 251.98 
+results.rsquared : 0.7348, results.rsquared_adj : 0.7310
+==================================================================
+For apartment 중구 황학동 / 롯데캐슬: 122
+results.params : 24839.83 783.42 297.63 
+results.rsquared : 0.7381, results.rsquared_adj : 0.7337
+==================================================================
+For apartment 강동구 암사동 / 롯데캐슬퍼스트: 251
+results.params : 51818.03 872.89 229.04 
+results.rsquared : 0.7572, results.rsquared_adj : 0.7552
+==================================================================
+For apartment 송파구 잠실동 / 리센츠: 345
+results.params : 38246.09 2249.72 194.52 
+results.rsquared : 0.9127, results.rsquared_adj : 0.9122
+==================================================================
+For apartment 강서구 마곡동 / 마곡13단지힐스테이트마스터: 122
+results.params : 44742.06 993.59 324.95 
+results.rsquared : 0.5450, results.rsquared_adj : 0.5374
+==================================================================
+For apartment 마포구 대흥동 / 마포그랑자이: 141
+results.params : 64836.60 1178.81 975.60 
+results.rsquared : 0.5751, results.rsquared_adj : 0.5690
+==================================================================
+For apartment 마포구 염리동 / 마포프레스티지자이: 129
+results.params : 36971.75 1701.39 748.90 
+results.rsquared : 0.8173, results.rsquared_adj : 0.8144
+==================================================================
+For apartment 양천구 신월동 / 목동센트럴아이파크위브2단지: 133
+results.params : 34154.51 766.10 448.20 
+results.rsquared : 0.6149, results.rsquared_adj : 0.6090
+==================================================================
+For apartment 양천구 신정동 / 목동신시가지14: 131
+results.params : 40246.84 1420.90 -425.24 
+results.rsquared : 0.8455, results.rsquared_adj : 0.8431
+==================================================================
+For apartment 서초구 반포동 / 반포자이: 200
+results.params : 120647.77 2463.04 137.04 
+results.rsquared : 0.9383, results.rsquared_adj : 0.9376
+==================================================================
+For apartment 은평구 응암동 / 백련산에스케이뷰아이파크: 158
+results.params : 53866.82 478.09 188.01 
+results.rsquared : 0.5051, results.rsquared_adj : 0.4987
+==================================================================
+For apartment 관악구 봉천동 / 벽산블루밍: 141
+results.params : 37045.68 512.54 162.88 
+results.rsquared : 0.6959, results.rsquared_adj : 0.6915
+==================================================================
+For apartment 영등포구 신길동 / 보라매에스케이뷰: 139
+results.params : 50245.98 989.66 327.54 
+results.rsquared : 0.6695, results.rsquared_adj : 0.6647
+==================================================================
+For apartment 노원구 상계동 / 보람아파트: 138
+results.params : 10771.58 686.30 138.07 
+results.rsquared : 0.6493, results.rsquared_adj : 0.6441
+==================================================================
+For apartment 중랑구 면목동 / 사가정센트럴아이파크: 129
+results.params : 31566.46 917.68 273.40 
+results.rsquared : 0.5860, results.rsquared_adj : 0.5794
+==================================================================
+For apartment 노원구 상계동 / 상계주공7(고층): 140
+results.params : 4375.90 1088.86 -0.71 
+results.rsquared : 0.6876, results.rsquared_adj : 0.6831
+==================================================================
+For apartment 도봉구 도봉동 / 서원: 118
+results.params : -2790.82 774.09 41.15 
+results.rsquared : 0.3331, results.rsquared_adj : 0.3215
+==================================================================
+For apartment 강동구 암사동 / 선사현대아파트: 229
+results.params : 14810.60 1114.96 388.74 
+results.rsquared : 0.6026, results.rsquared_adj : 0.5991
+==================================================================
+For apartment 강남구 개포동 / 성원대치2단지아파트: 171
+results.params : 22219.39 2118.92 466.94 
+results.rsquared : 0.6210, results.rsquared_adj : 0.6165
+==================================================================
+For apartment 성동구 하왕십리동 / 센트라스: 208
+results.params : 19271.54 1682.94 250.90 
+results.rsquared : 0.8876, results.rsquared_adj : 0.8865
+==================================================================
+For apartment 송파구 장지동 / 송파더센트레: 136
+results.params : -19886.89 2122.80 54.91 
+results.rsquared : 0.5644, results.rsquared_adj : 0.5579
+==================================================================
+For apartment 성동구 금호동2가 / 신금호파크자이: 122
+results.params : 57334.41 1135.76 512.90 
+results.rsquared : 0.6853, results.rsquared_adj : 0.6800
+==================================================================
+For apartment 동작구 노량진동 / 신동아리버파크: 127
+results.params : 50139.25 578.43 35.55 
+results.rsquared : 0.6545, results.rsquared_adj : 0.6489
+==================================================================
+For apartment 서초구 반포동 / 아크로리버파크: 119
+results.params : -101575.81 5787.47 1043.02 
+results.rsquared : 0.8619, results.rsquared_adj : 0.8595
+==================================================================
+For apartment 강북구 미아동 / 에스케이북한산시티: 312
+results.params : 35306.66 347.24 130.39 
+results.rsquared : 0.5798, results.rsquared_adj : 0.5771
+==================================================================
+For apartment 영등포구 영등포동 / 영등포푸르지오: 137
+results.params : 50614.75 657.26 168.40 
+results.rsquared : 0.3292, results.rsquared_adj : 0.3192
+==================================================================
+For apartment 성동구 옥수동 / 옥수파크힐스101동~116동: 150
+results.params : 67268.16 1400.32 -263.60 
+results.rsquared : 0.6987, results.rsquared_adj : 0.6946
+==================================================================
+For apartment 송파구 문정동 / 올림픽훼밀리타운: 279
+results.params : 87578.60 909.82 124.12 
+results.rsquared : 0.7769, results.rsquared_adj : 0.7753
+==================================================================
+For apartment 성북구 하월곡동 / 월곡두산위브: 136
+results.params : 41739.54 405.93 37.00 
+results.rsquared : 0.7724, results.rsquared_adj : 0.7689
+==================================================================
+For apartment 송파구 장지동 / 위례24단지(꿈에그린): 150
+results.params : 7499.58 1627.45 528.69 
+results.rsquared : 0.8028, results.rsquared_adj : 0.8001
+==================================================================
+For apartment 강남구 대치동 / 은마: 190
+results.params : -89078.91 3937.88 803.59 
+results.rsquared : 0.3525, results.rsquared_adj : 0.3456
+==================================================================
+For apartment 성동구 금호동1가 / 이편한세상금호파크힐스: 157
+results.params : 65307.11 1044.88 654.65 
+results.rsquared : 0.7507, results.rsquared_adj : 0.7475
+==================================================================
+For apartment 송파구 잠실동 / 잠실엘스: 281
+results.params : 43608.33 2155.10 513.01 
+results.rsquared : 0.6995, results.rsquared_adj : 0.6973
+==================================================================
+For apartment 노원구 하계동 / 장미(시영6): 120
+results.params : 7267.87 871.64 387.95 
+results.rsquared : 0.5669, results.rsquared_adj : 0.5595
+==================================================================
+For apartment 동대문구 장안동 / 장안현대홈타운(336): 132
+results.params : 31447.88 607.52 512.21 
+results.rsquared : 0.6451, results.rsquared_adj : 0.6396
+==================================================================
+For apartment 동대문구 전농동 / 전농SK: 129
+results.params : 40696.33 437.09 214.22 
+results.rsquared : 0.7456, results.rsquared_adj : 0.7415
+==================================================================
+For apartment 성북구 정릉동 / 정릉풍림아이원: 178
+results.params : 24536.69 397.97 260.99 
+results.rsquared : 0.6926, results.rsquared_adj : 0.6891
+==================================================================
+For apartment 도봉구 창동 / 주공17단지: 142
+results.params : 3508.08 831.99 156.78 
+results.rsquared : 0.1737, results.rsquared_adj : 0.1618
+==================================================================
+For apartment 노원구 중계동 / 주공5: 131
+results.params : -12967.83 1311.30 323.87 
+results.rsquared : 0.9204, results.rsquared_adj : 0.9192
+==================================================================
+For apartment 송파구 잠실동 / 주공아파트 5단지: 167
+results.params : -8152.35 3337.82 562.42 
+results.rsquared : 0.1658, results.rsquared_adj : 0.1556
+==================================================================
+For apartment 노원구 중계동 / 중계그린1단지: 180
+results.params : 7619.93 856.63 254.37 
+results.rsquared : 0.4781, results.rsquared_adj : 0.4722
+==================================================================
+For apartment 노원구 중계동 / 중계무지개: 131
+results.params : 9458.42 775.10 241.74 
+results.rsquared : 0.5539, results.rsquared_adj : 0.5469
+==================================================================
+For apartment 도봉구 창동 / 창동주공3단지(해등마을): 128
+results.params : 20906.16 653.39 358.35 
+results.rsquared : 0.4049, results.rsquared_adj : 0.3954
+==================================================================
+For apartment 노원구 공릉동 / 태강아파트(아이파크): 160
+results.params : -10636.38 1159.69 184.49 
+results.rsquared : 0.6191, results.rsquared_adj : 0.6142
+==================================================================
+For apartment 성동구 하왕십리동 / 텐즈힐(1단지): 119
+results.params : 74477.04 890.16 200.35 
+results.rsquared : 0.7356, results.rsquared_adj : 0.7311
+==================================================================
+For apartment 송파구 잠실동 / 트리지움: 201
+results.params : 90559.92 1379.38 543.95 
+results.rsquared : 0.7542, results.rsquared_adj : 0.7517
+==================================================================
+For apartment 송파구 신천동 / 파크리오: 547
+results.params : 58315.32 1638.07 317.35 
+results.rsquared : 0.7993, results.rsquared_adj : 0.7985
+==================================================================
+For apartment 용산구 이촌동 / 한가람: 142
+results.params : 50450.10 1682.19 691.11 
+results.rsquared : 0.8701, results.rsquared_adj : 0.8683
+==================================================================
+For apartment 구로구 개봉동 / 한마을: 130
+results.params : 39955.88 442.88 76.24 
+results.rsquared : 0.7973, results.rsquared_adj : 0.7941
+==================================================================
+For apartment 성북구 돈암동 / 한진(609-1): 179
+results.params : 25907.99 492.35 55.33 
+results.rsquared : 0.8284, results.rsquared_adj : 0.8264
+==================================================================
+For apartment 노원구 월계동 / 한진한화그랑빌: 181
+results.params : 42296.25 424.81 134.42 
+results.rsquared : 0.6631, results.rsquared_adj : 0.6593
+==================================================================
+For apartment 성동구 행당동 / 행당한진타운: 173
+results.params : 54974.68 663.89 457.18 
+results.rsquared : 0.6975, results.rsquared_adj : 0.6940
+==================================================================
+For apartment 송파구 가락동 / 헬리오시티: 704
+results.params : 42199.83 1827.00 237.90 
+results.rsquared : 0.8329, results.rsquared_adj : 0.8325
+==================================================================
+For apartment 구로구 개봉동 / 현대: 140
+results.params : 41270.06 397.91 157.35 
+results.rsquared : 0.6402, results.rsquared_adj : 0.6350
+==================================================================
+For apartment 광진구 구의동 / 현대프라임: 119
+results.params : 49641.51 1019.81 -35.46 
+results.rsquared : 0.8561, results.rsquared_adj : 0.8536
+==================================================================
+For apartment 동작구 상도동 / 힐스테이트 상도 센트럴파크: 122
+results.params : 81702.95 537.29 542.55 
+results.rsquared : 0.4920, results.rsquared_adj : 0.4834
+==================================================================
+For apartment 은평구 대조동 / 베르디움STAY1: 252
+results.params : -2167385.50 61105.85 38.12 
+results.rsquared : 0.2161, results.rsquared_adj : 0.2098
+==================================================================
+For apartment 동작구 대방동 / 보라매센트럴타운: 135
+results.params : -7252.20 1893.72 225.28 
+results.rsquared : 0.8305, results.rsquared_adj : 0.8279
+==================================================================
+For apartment 중랑구 상봉동 / 스마트트라움: 127
+results.params : 5165.37 911.90 109.39 
+results.rsquared : 0.9991, results.rsquared_adj : 0.9991
+==================================================================
+46th apartment name; 서대문구 북가좌동 / DMC래미안e편한세상, # step1: 188
+48th apartment name; 은평구 수색동 / DMC롯데캐슬더퍼스트, # step1: 118
+66th apartment name; 서대문구 남가좌동 / DMC파크뷰자이1단지, # step1: 154
+134th apartment name; 송파구 가락동 / 가락(1차)쌍용아파트, # step1: 196
+233th apartment name; 강서구 화곡동 / 강서힐스테이트, # step1: 199
+254th apartment name; 강남구 개포동 / 개포래미안포레스트, # step1: 176
+370th apartment name; 강동구 고덕동 / 고덕그라시움, # step1: 491
+371th apartment name; 강동구 상일동 / 고덕롯데캐슬베네루체, # step1: 147
+376th apartment name; 강동구 상일동 / 고덕센트럴IPARK, # step1: 149
+380th apartment name; 강동구 상일동 / 고덕아르테온, # step1: 309
+381th apartment name; 강동구 상일동 / 고덕자이, # step1: 148
+417th apartment name; 관악구 봉천동 / 관악드림(동아), # step1: 153
+420th apartment name; 금천구 시흥동 / 관악산벽산타운5, # step1: 172
+423th apartment name; 관악구 신림동 / 관악산휴먼시아2단지, # step1: 159
+431th apartment name; 관악구 봉천동 / 관악푸르지오, # step1: 160
+461th apartment name; 구로구 구로동 / 구로두산, # step1: 157
+604th apartment name; 성북구 길음동 / 길음뉴타운2단지푸르지오, # step1: 132
+606th apartment name; 성북구 길음동 / 길음뉴타운4단지(e편한세상), # step1: 127
+625th apartment name; 강남구 수서동 / 까치마을, # step1: 132
+649th apartment name; 중구 신당동 / 남산타운, # step1: 214
+683th apartment name; 은평구 응암동 / 녹번역e편한세상캐슬, # step1: 265
+801th apartment name; 성동구 행당동 / 대림e-편한세상, # step1: 165
+952th apartment name; 강남구 도곡동 / 도곡렉슬, # step1: 206
+1161th apartment name; 관악구 봉천동 / 두산, # step1: 135
+1162th apartment name; 성북구 석관동 / 두산, # step1: 129
+1249th apartment name; 성동구 옥수동 / 래미안 옥수 리버젠, # step1: 118
+1252th apartment name; 강동구 천호동 / 래미안강동팰리스, # step1: 118
+1257th apartment name; 성북구 길음동 / 래미안길음센터피스, # step1: 152
+1276th apartment name; 강남구 개포동 / 래미안블레스티지, # step1: 136
+1288th apartment name; 강동구 명일동 / 래미안솔베뉴, # step1: 194
+1295th apartment name; 성북구 석관동 / 래미안아트리치, # step1: 119
+1296th apartment name; 영등포구 신길동 / 래미안에스티움, # step1: 122
+1305th apartment name; 동대문구 답십리동 / 래미안위브, # step1: 245
+1308th apartment name; 동대문구 장안동 / 래미안장안2차, # step1: 118
+1309th apartment name; 성북구 장위동 / 래미안장위퍼스트하이, # step1: 163
+1311th apartment name; 동대문구 전농동 / 래미안크레시티, # step1: 164
+1317th apartment name; 서초구 반포동 / 래미안퍼스티지, # step1: 165
+1320th apartment name; 성북구 장위동 / 래미안포레카운티, # step1: 118
+1324th apartment name; 강동구 고덕동 / 래미안힐스테이트고덕, # step1: 263
+1335th apartment name; 송파구 잠실동 / 레이크팰리스, # step1: 143
+1357th apartment name; 중구 황학동 / 롯데캐슬, # step1: 122
+1385th apartment name; 강동구 암사동 / 롯데캐슬퍼스트, # step1: 251
+1416th apartment name; 송파구 잠실동 / 리센츠, # step1: 345
+1434th apartment name; 강서구 마곡동 / 마곡13단지힐스테이트마스터, # step1: 122
+1491th apartment name; 마포구 대흥동 / 마포그랑자이, # step1: 141
+1511th apartment name; 마포구 염리동 / 마포프레스티지자이, # step1: 129
+1569th apartment name; 양천구 신월동 / 목동센트럴아이파크위브2단지, # step1: 133
+1578th apartment name; 양천구 신정동 / 목동신시가지14, # step1: 131
+1704th apartment name; 서초구 반포동 / 반포자이, # step1: 200
+1761th apartment name; 은평구 응암동 / 백련산에스케이뷰아이파크, # step1: 158
+1809th apartment name; 관악구 봉천동 / 벽산블루밍, # step1: 141
+1832th apartment name; 영등포구 신길동 / 보라매에스케이뷰, # step1: 139
+1846th apartment name; 노원구 상계동 / 보람아파트, # step1: 138
+1934th apartment name; 중랑구 면목동 / 사가정센트럴아이파크, # step1: 129
+2133th apartment name; 노원구 상계동 / 상계주공7(고층), # step1: 140
+2272th apartment name; 도봉구 도봉동 / 서원, # step1: 118
+2343th apartment name; 강동구 암사동 / 선사현대아파트, # step1: 229
+2397th apartment name; 강남구 개포동 / 성원대치2단지아파트, # step1: 171
+2457th apartment name; 성동구 하왕십리동 / 센트라스, # step1: 208
+2478th apartment name; 송파구 장지동 / 송파더센트레, # step1: 136
+2583th apartment name; 성동구 금호동2가 / 신금호파크자이, # step1: 122
+2646th apartment name; 동작구 노량진동 / 신동아리버파크, # step1: 127
+2867th apartment name; 서초구 반포동 / 아크로리버파크, # step1: 119
+2920th apartment name; 강북구 미아동 / 에스케이북한산시티, # step1: 312
+2987th apartment name; 영등포구 영등포동 / 영등포푸르지오, # step1: 137
+3042th apartment name; 성동구 옥수동 / 옥수파크힐스101동~116동, # step1: 150
+3060th apartment name; 송파구 문정동 / 올림픽훼밀리타운, # step1: 279
+3242th apartment name; 성북구 하월곡동 / 월곡두산위브, # step1: 136
+3267th apartment name; 송파구 장지동 / 위례24단지(꿈에그린), # step1: 150
+3304th apartment name; 강남구 대치동 / 은마, # step1: 190
+3380th apartment name; 성동구 금호동1가 / 이편한세상금호파크힐스, # step1: 157
+3442th apartment name; 송파구 잠실동 / 잠실엘스, # step1: 281
+3455th apartment name; 노원구 하계동 / 장미(시영6), # step1: 120
+3472th apartment name; 동대문구 장안동 / 장안현대홈타운(336), # step1: 132
+3481th apartment name; 동대문구 전농동 / 전농SK, # step1: 129
+3498th apartment name; 성북구 정릉동 / 정릉풍림아이원, # step1: 178
+3549th apartment name; 도봉구 창동 / 주공17단지, # step1: 142
+3560th apartment name; 노원구 중계동 / 주공5, # step1: 131
+3565th apartment name; 송파구 잠실동 / 주공아파트 5단지, # step1: 167
+3578th apartment name; 노원구 중계동 / 중계그린1단지, # step1: 180
+3579th apartment name; 노원구 중계동 / 중계무지개, # step1: 131
+3664th apartment name; 도봉구 창동 / 창동주공3단지(해등마을), # step1: 128
+3844th apartment name; 노원구 공릉동 / 태강아파트(아이파크), # step1: 160
+3900th apartment name; 성동구 하왕십리동 / 텐즈힐(1단지), # step1: 119
+3908th apartment name; 송파구 잠실동 / 트리지움, # step1: 201
+3918th apartment name; 송파구 신천동 / 파크리오, # step1: 547
+4022th apartment name; 용산구 이촌동 / 한가람, # step1: 142
+4070th apartment name; 구로구 개봉동 / 한마을, # step1: 130
+4215th apartment name; 성북구 돈암동 / 한진(609-1), # step1: 179
+4220th apartment name; 노원구 월계동 / 한진한화그랑빌, # step1: 181
+4253th apartment name; 성동구 행당동 / 행당한진타운, # step1: 173
+4257th apartment name; 송파구 가락동 / 헬리오시티, # step1: 704
+4269th apartment name; 구로구 개봉동 / 현대, # step1: 140
+4416th apartment name; 광진구 구의동 / 현대프라임, # step1: 119
+4545th apartment name; 동작구 상도동 / 힐스테이트 상도 센트럴파크, # step1: 122
+4988th apartment name; 은평구 대조동 / 베르디움STAY1, # step1: 252
+5729th apartment name; 동작구 대방동 / 보라매센트럴타운, # step1: 135
+5787th apartment name; 중랑구 상봉동 / 스마트트라움, # step1: 127

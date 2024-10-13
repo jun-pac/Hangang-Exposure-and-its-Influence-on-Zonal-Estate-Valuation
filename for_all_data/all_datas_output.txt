@@ -1,0 +1,139 @@
+data.shape : (92151, 5)
+OLS_model1: area + transaction_t + floor + t_build
+X.shape: (92151, 4)
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.432
+Model:                            OLS   Adj. R-squared:                  0.432
+Method:                 Least Squares   F-statistic:                 1.402e+04
+Date:                Sun, 13 Oct 2024   Prob (F-statistic):               0.00
+Time:                        22:42:16   Log-Likelihood:            -9.1852e+05
+No. Observations:               73720   AIC:                         1.837e+06
+Df Residuals:                   73715   BIC:                         1.837e+06
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const      -8.893e+05   4.18e+04    -21.270      0.000   -9.71e+05   -8.07e+05
+x1          1728.8765      7.726    223.769      0.000    1713.733    1744.020
+x2           288.2403     26.574     10.847      0.000     236.156     340.325
+x3          1548.3453     36.209     42.762      0.000    1477.377    1619.314
+x4           420.7777     20.834     20.197      0.000     379.943     461.612
+==============================================================================
+Omnibus:                    47402.169   Durbin-Watson:                   2.000
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):          1591473.509
+Skew:                           2.595   Prob(JB):                         0.00
+Kurtosis:                      25.163   Cond. No.                     3.65e+05
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 3.65e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.
+Average error: 42.15
+Average train error: 41.98
+
+OLS_model2: area + floor + t_build
+X.shape: (92151, 3)
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.431
+Model:                            OLS   Adj. R-squared:                  0.431
+Method:                 Least Squares   F-statistic:                 1.863e+04
+Date:                Sun, 13 Oct 2024   Prob (F-statistic):               0.00
+Time:                        22:42:17   Log-Likelihood:            -9.1858e+05
+No. Observations:               73720   AIC:                         1.837e+06
+Df Residuals:                   73716   BIC:                         1.837e+06
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const      -8.661e+05   4.18e+04    -20.727      0.000   -9.48e+05   -7.84e+05
+x1          1736.5741      7.700    225.541      0.000    1721.483    1751.665
+x2          1553.4458     36.234     42.872      0.000    1482.427    1624.465
+x3           415.3653     20.844     19.927      0.000     374.510     456.220
+==============================================================================
+Omnibus:                    47193.156   Durbin-Watson:                   2.001
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):          1569292.706
+Skew:                           2.581   Prob(JB):                         0.00
+Kurtosis:                      25.006   Cond. No.                     3.65e+05
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 3.65e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.
+Average error: 41.93
+Average train error: 41.75
+
+OLS_model3: area + transaction_t + transaction_t2 + floor + t_build
+X.shape: (92151, 5)
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.434
+Model:                            OLS   Adj. R-squared:                  0.434
+Method:                 Least Squares   F-statistic:                 1.131e+04
+Date:                Sun, 13 Oct 2024   Prob (F-statistic):               0.00
+Time:                        22:42:17   Log-Likelihood:            -9.1839e+05
+No. Observations:               73720   AIC:                         1.837e+06
+Df Residuals:                   73714   BIC:                         1.837e+06
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const      -8.081e+05    4.2e+04    -19.222      0.000   -8.91e+05   -7.26e+05
+x1          1731.0966      7.714    224.413      0.000    1715.977    1746.216
+x2         -3723.5279    250.471    -14.866      0.000   -4214.449   -3232.606
+x3            47.8586      2.971     16.108      0.000      42.035      53.682
+x4          1563.4415     36.157     43.240      0.000    1492.573    1634.310
+x5           420.0304     20.798     20.196      0.000     379.267     460.794
+==============================================================================
+Omnibus:                    47289.379   Durbin-Watson:                   2.000
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):          1588279.485
+Skew:                           2.585   Prob(JB):                         0.00
+Kurtosis:                      25.144   Cond. No.                     5.41e+05
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 5.41e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.
+Average error: 42.15
+Average train error: 41.97
+
+
+=========== OLS1: area + transaction_t + floor + t_build ===========
+
+X.shape: (92151, 4)
+Random Forest Regressor
+Average error: 18.43
+Average train error: 7.05
+
+Gradient Boosting Regressor
+Average error: 34.47
+Average train error: 34.31
+
+
+=========== OLS2: area + floor + t_build ===========
+
+Random Forest Regressor
+Average error: 16.59
+Average train error: 8.54
+
+Gradient Boosting Regressor
+Average error: 35.01
+Average train error: 34.77
+
+
+=========== OLS3: area + transaction_t + transaction_t2 + floor + t_build ===========
+
+Random Forest Regressor
+Average error: 18.49
+Average train error: 7.07
+
+Gradient Boosting Regressor
+Average error: 34.47
+Average train error: 34.31

@@ -37,7 +37,7 @@ with open("./hanriver.csv", "r") as f:
         if building_num in hanriver_vars[apartment_num[identifier]]:
             # print(f"Duplicate entry! {identifier} - {building_num}")
             continue
-        hanriver_vars[apartment_num[identifier]][building_num]=line[6:12]
+        hanriver_vars[apartment_num[identifier]][building_num]=line[6:19]
 
 # For debugging purpose
 # for i in range(num):

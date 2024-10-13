@@ -1,73 +1,209 @@
-  0%|          | 0/100 [00:00<?, ?it/s]  3%|▎         | 3/100 [00:00<00:03, 26.56it/s] 10%|█         | 10/100 [00:00<00:01, 47.04it/s] 18%|█▊        | 18/100 [00:00<00:01, 60.95it/s] 25%|██▌       | 25/100 [00:00<00:01, 54.09it/s] 31%|███       | 31/100 [00:00<00:01, 40.94it/s] 36%|███▌      | 36/100 [00:00<00:01, 40.90it/s] 44%|████▍     | 44/100 [00:00<00:01, 49.67it/s] 50%|█████     | 50/100 [00:01<00:01, 45.17it/s] 59%|█████▉    | 59/100 [00:01<00:00, 55.52it/s] 67%|██████▋   | 67/100 [00:01<00:00, 60.24it/s] 76%|███████▌  | 76/100 [00:01<00:00, 67.20it/s] 85%|████████▌ | 85/100 [00:01<00:00, 71.63it/s] 94%|█████████▍| 94/100 [00:01<00:00, 75.54it/s]100%|██████████| 100/100 [00:01<00:00, 58.82it/s]
-data.shape : (212, 12)
-OLS
+data.shape : (212, 19)
+OLS_model4
+X.shape: (212, 4)
                             OLS Regression Results                            
 ==============================================================================
-Dep. Variable:                      y   R-squared:                       0.921
-Model:                            OLS   Adj. R-squared:                  0.915
-Method:                 Least Squares   F-statistic:                     166.4
-Date:                Sat, 12 Oct 2024   Prob (F-statistic):           1.52e-80
-Time:                        20:21:57   Log-Likelihood:                -2060.7
-No. Observations:                 169   AIC:                             4145.
-Df Residuals:                     157   BIC:                             4183.
-Df Model:                          11                                         
+Dep. Variable:                      y   R-squared:                       0.904
+Model:                            OLS   Adj. R-squared:                  0.902
+Method:                 Least Squares   F-statistic:                     387.2
+Date:                Sun, 13 Oct 2024   Prob (F-statistic):           2.14e-82
+Time:                        20:28:49   Log-Likelihood:                -2076.9
+No. Observations:                 169   AIC:                             4164.
+Df Residuals:                     164   BIC:                             4179.
+Df Model:                           4                                         
 Covariance Type:            nonrobust                                         
 ==============================================================================
                  coef    std err          t      P>|t|      [0.025      0.975]
 ------------------------------------------------------------------------------
-const       8.432e+05   1.03e+06      0.819      0.414   -1.19e+06    2.88e+06
-x1             1.3787      0.061     22.711      0.000       1.259       1.499
-x2           200.2471    180.352      1.110      0.269    -155.982     556.477
-x3          1694.1738    755.209      2.243      0.026     202.492    3185.855
-x4          1440.6403    526.812      2.735      0.007     400.088    2481.193
-x5          -480.4692    515.251     -0.932      0.353   -1498.187     537.249
-x6           -52.5770    128.614     -0.409      0.683    -306.614     201.460
-x7           -76.8209     89.278     -0.860      0.391    -253.162      99.520
-x8           733.6358    223.873      3.277      0.001     291.445    1175.827
-x9         -1.572e+04   1.36e+04     -1.154      0.250   -4.26e+04    1.12e+04
-x10         3.167e+04    1.5e+04      2.106      0.037    1962.471    6.14e+04
-x11          829.0109   1.76e+04      0.047      0.963    -3.4e+04    3.57e+04
+const      -7.919e+04   2.24e+04     -3.541      0.001   -1.23e+05    -3.5e+04
+x1             1.2756      0.055     23.247      0.000       1.167       1.384
+x2           318.2494    163.629      1.945      0.053      -4.841     641.340
+x3          1403.8469    548.128      2.561      0.011     321.549    2486.145
+x4           -98.3223     68.403     -1.437      0.153    -233.387      36.743
 ==============================================================================
-Omnibus:                      195.151   Durbin-Watson:                   2.001
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):            11336.665
-Skew:                           4.192   Prob(JB):                         0.00
-Kurtosis:                      42.238   Cond. No.                     7.86e+07
+Omnibus:                      237.453   Durbin-Watson:                   2.004
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            23217.250
+Skew:                           5.706   Prob(JB):                         0.00
+Kurtosis:                      59.275   Cond. No.                     1.58e+06
 ==============================================================================
 
 Notes:
 [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
-[2] The condition number is large, 7.86e+07. This might indicate that there are
+[2] The condition number is large, 1.58e+06. This might indicate that there are
 strong multicollinearity or other numerical problems.
-Average error: 48842.53
+Average error: 44563.73
 Baseline error: 45489.65
-Average train error: 47775.75
+Average train error: 52595.61
 Baseline train error: 70430.31
 
-Random Forest Regressor
-Average error: 26247.70
+OLS_model7
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.904
+Model:                            OLS   Adj. R-squared:                  0.902
+Method:                 Least Squares   F-statistic:                     308.7
+Date:                Sun, 13 Oct 2024   Prob (F-statistic):           3.71e-81
+Time:                        20:28:49   Log-Likelihood:                -2076.7
+No. Observations:                 169   AIC:                             4165.
+Df Residuals:                     163   BIC:                             4184.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const      -6.956e+04   2.73e+04     -2.548      0.012   -1.23e+05   -1.57e+04
+x1             1.2837      0.057     22.710      0.000       1.172       1.395
+x2           322.8769    164.109      1.967      0.051      -1.176     646.930
+x3          1410.0833    549.257      2.567      0.011     325.508    2494.659
+x4           -74.1144    119.913     -0.618      0.537    -310.897     162.668
+x5          -110.1003     71.133     -1.548      0.124    -250.561      30.360
+==============================================================================
+Omnibus:                      236.643   Durbin-Watson:                   2.011
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            22955.120
+Skew:                           5.673   Prob(JB):                         0.00
+Kurtosis:                      58.957   Cond. No.                     1.93e+06
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.93e+06. This might indicate that there are
+strong multicollinearity or other numerical problems.
+Average error: 44615.29
 Baseline error: 45489.65
-Average train error: 40757.08
+Average train error: 52534.09
+Baseline train error: 70430.31
+
+OLS_model8
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.903
+Model:                            OLS   Adj. R-squared:                  0.901
+Method:                 Least Squares   F-statistic:                     382.0
+Date:                Sun, 13 Oct 2024   Prob (F-statistic):           5.83e-82
+Time:                        20:28:49   Log-Likelihood:                -2077.9
+No. Observations:                 169   AIC:                             4166.
+Df Residuals:                     164   BIC:                             4182.
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const      -1.015e+05   1.79e+04     -5.663      0.000   -1.37e+05   -6.61e+04
+x1             1.2198      0.039     31.473      0.000       1.143       1.296
+x2           474.3763    132.284      3.586      0.000     213.178     735.575
+x3          1436.1611    551.329      2.605      0.010     347.542    2524.780
+x4           -24.3922    116.020     -0.210      0.834    -253.478     204.694
+==============================================================================
+Omnibus:                      241.814   Durbin-Watson:                   1.998
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            25191.125
+Skew:                           5.874   Prob(JB):                         0.00
+Kurtosis:                      61.647   Cond. No.                     1.26e+06
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.26e+06. This might indicate that there are
+strong multicollinearity or other numerical problems.
+Average error: 42890.58
+Baseline error: 45489.65
+Average train error: 52918.74
+Baseline train error: 70430.31
+
+OLS_model9
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.913
+Model:                            OLS   Adj. R-squared:                  0.910
+Method:                 Least Squares   F-statistic:                     283.2
+Date:                Sun, 13 Oct 2024   Prob (F-statistic):           3.77e-83
+Time:                        20:28:49   Log-Likelihood:                -2068.8
+No. Observations:                 169   AIC:                             4152.
+Df Residuals:                     162   BIC:                             4174.
+Df Model:                           6                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const      -5.623e+04   2.64e+04     -2.134      0.034   -1.08e+05   -4193.255
+x1             1.3353      0.056     23.989      0.000       1.225       1.445
+x2           222.9278    159.147      1.401      0.163     -91.343     537.199
+x3          1278.4357    526.991      2.426      0.016     237.778    2319.093
+x4           -98.1327    114.983     -0.853      0.395    -325.192     128.926
+x5          -206.0832     72.276     -2.851      0.005    -348.807     -63.359
+x6           896.9329    225.876      3.971      0.000     450.892    1342.974
+==============================================================================
+Omnibus:                      211.118   Durbin-Watson:                   2.034
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            14509.715
+Skew:                           4.743   Prob(JB):                         0.00
+Kurtosis:                      47.391   Cond. No.                     1.95e+06
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.95e+06. This might indicate that there are
+strong multicollinearity or other numerical problems.
+Average error: 45853.17
+Baseline error: 45489.65
+Average train error: 50150.09
+Baseline train error: 70430.31
+
+
+=========== OLS7: baseline, area, floor, angle, distance ===========
+
+Random Forest Regressor
+Average error: 24003.43
+Baseline error: 45489.65
+Average train error: 40228.80
 Baseline train error: 70430.31
 
 Gradient Boosting Regressor
-Average error: 73743.76
+Average error: 48241.22
 Baseline error: 45489.65
-Average train error: 6293.37
+Average train error: 9074.49
+Baseline train error: 70430.31
+
+
+=========== OLS8: baseline, area, floor, angle ===========
+
+Gradient Boosting Regressor
+Average error: 75493.46
+Baseline error: 45489.65
+Average train error: 9566.90
+Baseline train error: 70430.31
+
+
+=========== OLS4: baseline, area, floor, distance ===========
+
+Gradient Boosting Regressor
+Average error: 65087.72
+Baseline error: 45489.65
+Average train error: 9789.47
+Baseline train error: 70430.31
+
+
+=========== OLS9: baseline, area, floor, angle, distance, obscure ===========
+
+Gradient Boosting Regressor
+Average error: 47624.40
+Baseline error: 45489.65
+Average train error: 9228.37
 Baseline train error: 70430.31
 
 DNN
-Epoch [10/100], Loss: 2307200000.0000
-Epoch [20/100], Loss: 1097724032.0000
-Epoch [30/100], Loss: 54798442496.0000
-Epoch [40/100], Loss: 1061241536.0000
-Epoch [50/100], Loss: 1111660672.0000
-Epoch [60/100], Loss: 628510976.0000
-Epoch [70/100], Loss: 55568576512.0000
-Epoch [80/100], Loss: 1188866432.0000
-Epoch [90/100], Loss: 613856000.0000
-Epoch [100/100], Loss: 1675067520.0000
-Average error: 30815.41
+Average error: 30554.20
 Baseline error: 45489.65
-Average train error: 60616.96
+Average train error: 60870.74
 Baseline train error: 70430.31
 
+Traceback (most recent call last):
+  File "step2.py", line 461, in <module>
+    run_dnn(X_train, X_test, y_train, y_test)
+  File "step2.py", line 399, in run_dnn
+    shap_values = explainer.shap_values(X_train_tensor)
+  File "/home/oiocha/.local/lib/python3.8/site-packages/shap/explainers/_deep/__init__.py", line 125, in shap_values
+    return self.explainer.shap_values(X, ranked_outputs, output_rank_order, check_additivity=check_additivity)
+  File "/home/oiocha/.local/lib/python3.8/site-packages/shap/explainers/_deep/deep_pytorch.py", line 219, in shap_values
+    _check_additivity(self, model_output_values.cpu(), output_phis)
+  File "/home/oiocha/.local/lib/python3.8/site-packages/shap/explainers/_deep/deep_utils.py", line 20, in _check_additivity
+    assert maxdiff < TOLERANCE, "The SHAP explanations do not sum up to the model's output! This is either because of a " \
+AssertionError: The SHAP explanations do not sum up to the model's output! This is either because of a rounding error or because an operator in your computation graph was not fully supported. If the sum difference of %f is significant compared to the scale of your model outputs, please post as a github issue, with a reproducible example so we can debug it. Used framework: pytorch - Max. diff: 0.19434630870819092 - Tolerance: 0.01
