@@ -16,6 +16,11 @@ import shap
 
 data=np.load("./step2_data.npy")
 print(f"data.shape : {data.shape}")
+wo_outlier=[]
+for i in range(len(data)):
+    if(data[i][0]<=1000000):
+        wo_outlier.append(data[i])
+data=np.array(wo_outlier)
 # Price, Baseline_price, area, transaction_t, floor, t_build, hangang_angle, distance, obscure_angle, sound_barrier, highway, north_region
 
 
@@ -56,28 +61,9 @@ def OLS0(printflag):
     # Only baseline, area, floor, distance
     print(f"OLS_model0")
     datas=data.T
-    X = datas[1]
+    X = datas[1:2]
     print(f"X.shape: {X.shape}")
-    # print(X)
     Y = datas[0]  
-    plt.scatter(X,Y)
-    plt.xlabel('Baseline Price')
-    plt.ylabel('Price')
-    plt.legend(title="Price vs Baseline Price")
-    plt.show()
-    XX=[]
-    YY=[]
-    for i in range(len(X)):
-        if(Y[i]<1000000):
-            XX.append(X[i])
-            YY.append(Y[i])
-    X=np.array([XX])
-    Y=np.array(YY)
-    plt.scatter(X[0],Y)
-    plt.xlabel('Baseline Price')
-    plt.ylabel('Price')
-    plt.legend(title="Price vs Baseline Price")
-    plt.show()
     X=X.T
     Y=Y.T
 
@@ -329,12 +315,12 @@ def OLS9(printflag):
 
 # OLS
 OLS0(True) # Only baseline
-# OLS1(True)
-# OLS2(True)
-# OLS3(True)
+OLS1(True)
+OLS2(True)
+OLS3(True)
 OLS4(True) # baseline, area, floor, distance
-# OLS5(True)
-# OLS6(True)
+OLS5(True)
+OLS6(True)
 OLS7(True) # baseline, area, floor, angle, distance
 OLS8(True) # I think 'baseline, area, floor, angle' is the most important!
 OLS9(True) # baseline, area, floor, angle, distance, obscure
